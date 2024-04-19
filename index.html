@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="intro py-3 bg-white text-center" >
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">Quiz</h2>
+        </div>
+    </div>
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>Your result is <span class="text-primary display-4 p-3">0%</span></p>
+        </div>
+    </div>
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">On with the questions...</h2>
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">What is the result of multiplying 5 by 7?</p>
+                </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name = "Q1" value="A" checked>
+                <label class="form-check-label">25</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name = "Q1" value="B" checked>
+                <label class="form-check-label">35</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name = "Q1" value="C" checked>
+                <label class="form-check-label">40</label>
+            </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">What is the sum of 10 + 15?</p>
+            </div>
+        <div class="form-check my-2 text-white-50">
+            <input type="radio" name = "Q2" value="A" checked>
+            <label class="form-check-label">25</label>
+        </div>
+        <div class="form-check my-2 text-white-50">
+            <input type="radio" name = "Q2" value="B" checked>
+            <label class="form-check-label">15</label>
+        </div>
+        <div class="form-check my-2 text-white-50">
+            <input type="radio" name = "Q2" value="C" checked>
+            <label class="form-check-label">7</label>
+        </div>
+
+        <div class="my-5">
+            <p class="lead font-weight-normal">What is the capital of Denmark?</p>
+        </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name = "Q3" value="A" checked>
+        <label class="form-check-label">Cairo</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name = "Q3" value="B" checked>
+        <label class="form-check-label">Copenhagen</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name = "Q3" value="C" checked>
+        <label class="form-check-label">new york</label>
+    </div>
+    <div class="text-center">
+        <input type="submit" class="btn btn-light">
+    </div>
+    </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
